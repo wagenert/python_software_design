@@ -3,4 +3,8 @@ class Book:
         self._attributes = attributes
 
     @property
-    def attributes(self): return self._attributes    
+    def attributes(self):
+        return self._attributes
+
+    def __str__(self):
+        return str(self._attributes)
